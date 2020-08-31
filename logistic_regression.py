@@ -54,8 +54,6 @@ dataset = MNIST(root='data/',
                 train=True,
                 transform=transforms.ToTensor())
 train_ds, val_ds = random_split(dataset, [50000, 10000])
-# print(len(train_ds))
-# print(len(val_ds))
 
 batch_size = 100
 
