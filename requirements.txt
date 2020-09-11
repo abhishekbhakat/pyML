@@ -2,3 +2,4 @@ wheel
 notebook
 torch
 torchvision
+matplotlib
